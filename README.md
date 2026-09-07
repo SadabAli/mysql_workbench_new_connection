@@ -7,7 +7,7 @@ Open MySQL Workbench and connect using the existing **root** connection.
 Open a new SQL Editor and run:
 
 ```sql
-CREATE USER 'DM'@'localhost' IDENTIFIED BY 'Sadab@t';
+CREATE USER 'DM'@'localhost' IDENTIFIED BY 'password';
 
 GRANT ALL PRIVILEGES ON *.* TO 'DM'@'localhost';
 
@@ -42,12 +42,12 @@ Enter:
 | Hostname | `localhost` |
 | Port | `3306` |
 | Username | `DM` |
-| Password | `Sadab@t` |
+| Password | `password` |
 
 For the password, click **Store in Vault...** and enter:
 
 ```text
-Sadab@t
+password
 ```
 
 Then click **Test Connection**.
@@ -65,7 +65,7 @@ Click **OK** and then double-click the new **Practice** connection.
 ```text
 Connection Name: Practice
 Username:        DM
-Password:        Sadab@t
+Password:        password
 Hostname:        localhost
 Port:            3306
 ```
@@ -85,5 +85,5 @@ DM
 and the password is:
 
 ```text
-Sadab@t
+password
 ```
